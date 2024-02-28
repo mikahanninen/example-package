@@ -7,6 +7,6 @@ class custom:
         self.logger = logging.getLogger(__name__)
 
     def keyword_from_package(self):
-        message = "keyword from custom package"
+        message = "modified keyword from custom package"
         self.logger.info(message)
         return message
